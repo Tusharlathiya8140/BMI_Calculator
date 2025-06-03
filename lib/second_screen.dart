@@ -60,6 +60,9 @@ class _ResultScreenState extends State<ResultScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: darkBlueColour,
+        iconTheme: IconThemeData(
+          color: Colors.white, // <- changes the back arrow color
+        ),
         title: Text(
           'Result Screen',
           style: TextStyle(fontSize: 25, color: Colors.white),
